@@ -1,0 +1,9 @@
+id,identifier,barcode,species,lat,lon,city,age,description
+1,Oak,Oak,Quercus,37.871592,-122.272747,Berkeley,10,Oak is the most common name for trees listed in the genus Quercus. There are a few species that exhibit a shrub type growth form instead of a tree form. There are both deciduous and evergreen species and some are semi-evergreen.
+2,Pine,Pine,Pinus,34.180839,-118.308967,Burbank,1,Pine trees are all evergreens and possess needles as leaves and cones as part of their reproductive system. All pines are resinous Coniferous trees. Some Pine species grow as shrubs instead of trees.
+3,Maple,Maple,Genus,34.052233,-118.243686,Los Angeles,12, are an important group of forest trees in New York State.
+4,Willow,Willow,Salix,37.774931,-122.419417,San Francisco,100,Willows also called sallows and osiers form the genus Salix around 400 species of deciduous trees and shrubs found primarily on moist soils in cold and temperate regions of the Northern Hemisphere
+5,Cedrus,Cedrus,Genus,38.297539,-122.286864,Napa,5,is a genus of coniferous trees in the plant family Pinaceae. They are native to the mountains of the western Himalayas and the Mediterranean region.
+6,Ash,Ash,Fraxinus,37.507158,-122.260522,San Carlos,8,Fraxinus English name ash is a genus of flowering plants in the olive and lilac family Oleaceae.
+7,Linden,Linden,Tilia,32.715328,-117.157256,San Diego,5,Tilia is a genus of about 30 species of trees native throughout most of the temperate Northern Hemisphere. Commonly called lime trees in the British Isles they are not related to the lime fruit.
+

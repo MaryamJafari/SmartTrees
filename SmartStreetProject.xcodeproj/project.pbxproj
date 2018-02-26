@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD6EA733B4D17D09D5F244C /* Pods_SmartStreetProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 441FAE412CA7124A83F8C665 /* Pods_SmartStreetProject.framework */; };
+		5C18C2CE1F6C677C007A630C /* Nearby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18C2CD1F6C677C007A630C /* Nearby.swift */; };
+		5C18C2D01F6C7F6C007A630C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5C18C2CF1F6C7F6C007A630C /* GoogleService-Info.plist */; };
+		5C18C2D51F6C8D3F007A630C /* temp.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18C2D41F6C8D3F007A630C /* temp.m */; };
+		5C18C2E81F6C942F007A630C /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18C2DF1F6C942F007A630C /* GeoFire.m */; };
+		5C18C2E91F6C942F007A630C /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18C2E11F6C942F007A630C /* GFBase32Utils.m */; };
+		5C18C2EA1F6C942F007A630C /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18C2E31F6C942F007A630C /* GFGeoHash.m */; };
+		5C18C2EB1F6C942F007A630C /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18C2E51F6C942F007A630C /* GFGeoHashQuery.m */; };
+		5C18C2EC1F6C942F007A630C /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C18C2E71F6C942F007A630C /* GFQuery.m */; };
+		5C18C2F01F6C96A5007A630C /* TreeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18C2EF1F6C96A5007A630C /* TreeAnnotation.swift */; };
+		5C18C2F41F6E3364007A630C /* PhotoAndVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18C2F31F6E3364007A630C /* PhotoAndVideo.swift */; };
+		5C18C2F61F6E5512007A630C /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C18C2F51F6E5512007A630C /* ScannerViewController.swift */; };
+		5C24877F202BBB2600AC65F1 /* DBProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C24877E202BBB2600AC65F1 /* DBProvider.swift */; };
+		5C26D00F1F8B4D3E004D6613 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C26D00E1F8B4D3E004D6613 /* SignIn.swift */; };
+		5C2A88491F74603C005D834F /* circledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2A88481F74603C005D834F /* circledView.swift */; };
+		5C2A884B1F74A38C005D834F /* ItemCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2A884A1F74A38C005D834F /* ItemCellTableViewCell.swift */; };
+		5C2A88521F74B6F1005D834F /* TreeComments+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2A88501F74B6F1005D834F /* TreeComments+CoreDataClass.swift */; };
+		5C2A88531F74B6F1005D834F /* TreeComments+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2A88511F74B6F1005D834F /* TreeComments+CoreDataProperties.swift */; };
+		5C345C4D202BD995003DD1C1 /* Start.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C345C4C202BD995003DD1C1 /* Start.swift */; };
+		5C405A7520366FF80045EAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C405A7420366FF80045EAAB /* ViewController.swift */; };
+		5C4073A5203FF0C70055C978 /* AddNewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4073A4203FF0C70055C978 /* AddNewItem.swift */; };
+		5C4080901FA3A43E00A08F62 /* UserScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C40808F1FA3A43E00A08F62 /* UserScan.swift */; };
+		5C47A1871F68CC6A00BCCD96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47A1861F68CC6A00BCCD96 /* AppDelegate.swift */; };
+		5C47A18C1F68CC6A00BCCD96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C47A18A1F68CC6A00BCCD96 /* Main.storyboard */; };
+		5C47A18F1F68CC6A00BCCD96 /* SmartStreetProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C47A18D1F68CC6A00BCCD96 /* SmartStreetProject.xcdatamodeld */; };
+		5C47A1911F68CC6A00BCCD96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C47A1901F68CC6A00BCCD96 /* Assets.xcassets */; };
+		5C47A1941F68CC6A00BCCD96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C47A1921F68CC6A00BCCD96 /* LaunchScreen.storyboard */; };
+		5C47A1A01F68CF8A00BCCD96 /* CustomedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47A19F1F68CF8A00BCCD96 /* CustomedView.swift */; };
+		5C47A1A21F68D02300BCCD96 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47A1A11F68D02300BCCD96 /* Constant.swift */; };
+		5C47A1A41F68D08600BCCD96 /* TreeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47A1A31F68D08600BCCD96 /* TreeCell.swift */; };
+		5C47A1A61F68D0B200BCCD96 /* Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47A1A51F68D0B200BCCD96 /* Tree.swift */; };
+		5C47A1AA1F68DD8700BCCD96 /* CustomedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47A1A91F68DD8700BCCD96 /* CustomedButton.swift */; };
+		5C47A1AC1F69AD0800BCCD96 /* Trees.csv in Resources */ = {isa = PBXBuildFile; fileRef = 5C47A1AB1F69AD0800BCCD96 /* Trees.csv */; };
+		5C47A1AE1F69AEA000BCCD96 /* CSV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47A1AD1F69AEA000BCCD96 /* CSV.swift */; };
+		5C47A1B31F69B5BA00BCCD96 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47A1B21F69B5BA00BCCD96 /* About.swift */; };
+		5C47A1B51F69E84E00BCCD96 /* CustomedLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C47A1B41F69E84E00BCCD96 /* CustomedLable.swift */; };
+		5C542B171F717E2900B7D7D8 /* PardeTreesFromCSVFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C542B161F717E2900B7D7D8 /* PardeTreesFromCSVFile.swift */; };
+		5C542B191F71ED3700B7D7D8 /* share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C542B181F71ED3700B7D7D8 /* share.swift */; };
+		5C542B1B1F72414600B7D7D8 /* Interact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C542B1A1F72414600B7D7D8 /* Interact.swift */; };
+		5C542B221F72489F00B7D7D8 /* storm_wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B1E1F72489F00B7D7D8 /* storm_wind.mp3 */; };
+		5C542B231F72489F00B7D7D8 /* fierce_thunder_storm_with_wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B1F1F72489F00B7D7D8 /* fierce_thunder_storm_with_wind.mp3 */; };
+		5C542B241F72489F00B7D7D8 /* fire_storm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B201F72489F00B7D7D8 /* fire_storm.mp3 */; };
+		5C542B271F725F7C00B7D7D8 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B261F725F7C00B7D7D8 /* music.mp3 */; };
+		5C542B471F7264DD00B7D7D8 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B291F7264DD00B7D7D8 /* Icon-100.png */; };
+		5C542B481F7264DD00B7D7D8 /* Icon-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B2A1F7264DD00B7D7D8 /* Icon-1024.png */; };
+		5C542B491F7264DD00B7D7D8 /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B2B1F7264DD00B7D7D8 /* Icon-114.png */; };
+		5C542B4A1F7264DD00B7D7D8 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B2C1F7264DD00B7D7D8 /* Icon-120.png */; };
+		5C542B4B1F7264DD00B7D7D8 /* Icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B2D1F7264DD00B7D7D8 /* Icon-128.png */; };
+		5C542B4C1F7264DD00B7D7D8 /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B2E1F7264DD00B7D7D8 /* Icon-144.png */; };
+		5C542B4D1F7264DD00B7D7D8 /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B2F1F7264DD00B7D7D8 /* Icon-152.png */; };
+		5C542B4E1F7264DD00B7D7D8 /* Icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B301F7264DD00B7D7D8 /* Icon-16.png */; };
+		5C542B4F1F7264DD00B7D7D8 /* Icon-167.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B311F7264DD00B7D7D8 /* Icon-167.png */; };
+		5C542B501F7264DD00B7D7D8 /* Icon-172.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B321F7264DD00B7D7D8 /* Icon-172.png */; };
+		5C542B511F7264DD00B7D7D8 /* Icon-180.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B331F7264DD00B7D7D8 /* Icon-180.png */; };
+		5C542B521F7264DD00B7D7D8 /* Icon-196.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B341F7264DD00B7D7D8 /* Icon-196.png */; };
+		5C542B531F7264DD00B7D7D8 /* Icon-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B351F7264DD00B7D7D8 /* Icon-20.png */; };
+		5C542B541F7264DD00B7D7D8 /* Icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B361F7264DD00B7D7D8 /* Icon-256.png */; };
+		5C542B551F7264DD00B7D7D8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B371F7264DD00B7D7D8 /* Icon-29.png */; };
+		5C542B561F7264DD00B7D7D8 /* Icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B381F7264DD00B7D7D8 /* Icon-32.png */; };
+		5C542B571F7264DD00B7D7D8 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B391F7264DD00B7D7D8 /* Icon-40.png */; };
+		5C542B581F7264DD00B7D7D8 /* Icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B3A1F7264DD00B7D7D8 /* Icon-48.png */; };
+		5C542B591F7264DD00B7D7D8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B3B1F7264DD00B7D7D8 /* Icon-50.png */; };
+		5C542B5A1F7264DD00B7D7D8 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B3C1F7264DD00B7D7D8 /* Icon-512.png */; };
+		5C542B5B1F7264DD00B7D7D8 /* Icon-55.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B3D1F7264DD00B7D7D8 /* Icon-55.png */; };
+		5C542B5C1F7264DD00B7D7D8 /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B3E1F7264DD00B7D7D8 /* Icon-57.png */; };
+		5C542B5D1F7264DD00B7D7D8 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B3F1F7264DD00B7D7D8 /* Icon-58.png */; };
+		5C542B5E1F7264DD00B7D7D8 /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B401F7264DD00B7D7D8 /* Icon-60.png */; };
+		5C542B5F1F7264DD00B7D7D8 /* Icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B411F7264DD00B7D7D8 /* Icon-64.png */; };
+		5C542B601F7264DD00B7D7D8 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B421F7264DD00B7D7D8 /* Icon-72.png */; };
+		5C542B611F7264DD00B7D7D8 /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B431F7264DD00B7D7D8 /* Icon-76.png */; };
+		5C542B621F7264DD00B7D7D8 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B441F7264DD00B7D7D8 /* Icon-80.png */; };
+		5C542B631F7264DD00B7D7D8 /* Icon-87.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B451F7264DD00B7D7D8 /* Icon-87.png */; };
+		5C542B641F7264DD00B7D7D8 /* Icon-88.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C542B461F7264DD00B7D7D8 /* Icon-88.png */; };
+		5C542B661F72787500B7D7D8 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C542B651F72787500B7D7D8 /* Comment.swift */; };
+		5C542B681F727C1C00B7D7D8 /* CommentDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C542B671F727C1C00B7D7D8 /* CommentDetail.swift */; };
+		5C6994B61FA032CB006798EA /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6994B51FA032CB006798EA /* SignUp.swift */; };
+		5C6994B81FA03F52006798EA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6994B71FA03F52006798EA /* Video.swift */; };
+		5CE79A061FA3053200048885 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE79A051FA3053200048885 /* Rating.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		441FAE412CA7124A83F8C665 /* Pods_SmartStreetProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartStreetProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C18C2CD1F6C677C007A630C /* Nearby.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nearby.swift; sourceTree = "<group>"; };
+		5C18C2CF1F6C7F6C007A630C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5C18C2D31F6C8D3E007A630C /* SmartStreetProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartStreetProject-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C18C2D41F6C8D3F007A630C /* temp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = temp.m; sourceTree = "<group>"; };
+		5C18C2D81F6C942F007A630C /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		5C18C2D91F6C942F007A630C /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		5C18C2DA1F6C942F007A630C /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		5C18C2DB1F6C942F007A630C /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		5C18C2DC1F6C942F007A630C /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		5C18C2DE1F6C942F007A630C /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		5C18C2DF1F6C942F007A630C /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		5C18C2E01F6C942F007A630C /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		5C18C2E11F6C942F007A630C /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		5C18C2E21F6C942F007A630C /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		5C18C2E31F6C942F007A630C /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		5C18C2E41F6C942F007A630C /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		5C18C2E51F6C942F007A630C /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		5C18C2E61F6C942F007A630C /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		5C18C2E71F6C942F007A630C /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		5C18C2EF1F6C96A5007A630C /* TreeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeAnnotation.swift; sourceTree = "<group>"; };
+		5C18C2F11F6CB9C8007A630C /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5C18C2F31F6E3364007A630C /* PhotoAndVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAndVideo.swift; sourceTree = "<group>"; };
+		5C18C2F51F6E5512007A630C /* ScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		5C24877E202BBB2600AC65F1 /* DBProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBProvider.swift; sourceTree = "<group>"; };
+		5C26D00E1F8B4D3E004D6613 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		5C2A88481F74603C005D834F /* circledView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = circledView.swift; sourceTree = "<group>"; };
+		5C2A884A1F74A38C005D834F /* ItemCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellTableViewCell.swift; sourceTree = "<group>"; };
+		5C2A88501F74B6F1005D834F /* TreeComments+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TreeComments+CoreDataClass.swift"; sourceTree = "<group>"; };
+		5C2A88511F74B6F1005D834F /* TreeComments+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TreeComments+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		5C345C4C202BD995003DD1C1 /* Start.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start.swift; sourceTree = "<group>"; };
+		5C405A7420366FF80045EAAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5C4073A4203FF0C70055C978 /* AddNewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewItem.swift; sourceTree = "<group>"; };
+		5C40808F1FA3A43E00A08F62 /* UserScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScan.swift; sourceTree = "<group>"; };
+		5C47A1831F68CC6A00BCCD96 /* SmartStreetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartStreetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C47A1861F68CC6A00BCCD96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5C47A18B1F68CC6A00BCCD96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C47A18E1F68CC6A00BCCD96 /* SmartStreetProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SmartStreetProject.xcdatamodel; sourceTree = "<group>"; };
+		5C47A1901F68CC6A00BCCD96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C47A1931F68CC6A00BCCD96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C47A1951F68CC6A00BCCD96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C47A19F1F68CF8A00BCCD96 /* CustomedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomedView.swift; sourceTree = "<group>"; };
+		5C47A1A11F68D02300BCCD96 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		5C47A1A31F68D08600BCCD96 /* TreeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeCell.swift; sourceTree = "<group>"; };
+		5C47A1A51F68D0B200BCCD96 /* Tree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tree.swift; sourceTree = "<group>"; };
+		5C47A1A91F68DD8700BCCD96 /* CustomedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomedButton.swift; sourceTree = "<group>"; };
+		5C47A1AB1F69AD0800BCCD96 /* Trees.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Trees.csv; sourceTree = "<group>"; };
+		5C47A1AD1F69AEA000BCCD96 /* CSV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSV.swift; sourceTree = "<group>"; };
+		5C47A1B21F69B5BA00BCCD96 /* About.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		5C47A1B41F69E84E00BCCD96 /* CustomedLable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomedLable.swift; sourceTree = "<group>"; };
+		5C542B161F717E2900B7D7D8 /* PardeTreesFromCSVFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PardeTreesFromCSVFile.swift; sourceTree = "<group>"; };
+		5C542B181F71ED3700B7D7D8 /* share.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = share.swift; sourceTree = "<group>"; };
+		5C542B1A1F72414600B7D7D8 /* Interact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interact.swift; sourceTree = "<group>"; };
+		5C542B1E1F72489F00B7D7D8 /* storm_wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = storm_wind.mp3; path = ../../../../../../Downloads/storm_wind.mp3; sourceTree = "<group>"; };
+		5C542B1F1F72489F00B7D7D8 /* fierce_thunder_storm_with_wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fierce_thunder_storm_with_wind.mp3; path = ../../../../../../Downloads/fierce_thunder_storm_with_wind.mp3; sourceTree = "<group>"; };
+		5C542B201F72489F00B7D7D8 /* fire_storm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fire_storm.mp3; path = ../../../../../../Downloads/fire_storm.mp3; sourceTree = "<group>"; };
+		5C542B261F725F7C00B7D7D8 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = music.mp3; path = ../../../Udemy/Pokemon/Pokemon/music.mp3; sourceTree = "<group>"; };
+		5C542B291F7264DD00B7D7D8 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
+		5C542B2A1F7264DD00B7D7D8 /* Icon-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1024.png"; sourceTree = "<group>"; };
+		5C542B2B1F7264DD00B7D7D8 /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		5C542B2C1F7264DD00B7D7D8 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		5C542B2D1F7264DD00B7D7D8 /* Icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-128.png"; sourceTree = "<group>"; };
+		5C542B2E1F7264DD00B7D7D8 /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
+		5C542B2F1F7264DD00B7D7D8 /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
+		5C542B301F7264DD00B7D7D8 /* Icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-16.png"; sourceTree = "<group>"; };
+		5C542B311F7264DD00B7D7D8 /* Icon-167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-167.png"; sourceTree = "<group>"; };
+		5C542B321F7264DD00B7D7D8 /* Icon-172.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-172.png"; sourceTree = "<group>"; };
+		5C542B331F7264DD00B7D7D8 /* Icon-180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-180.png"; sourceTree = "<group>"; };
+		5C542B341F7264DD00B7D7D8 /* Icon-196.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-196.png"; sourceTree = "<group>"; };
+		5C542B351F7264DD00B7D7D8 /* Icon-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-20.png"; sourceTree = "<group>"; };
+		5C542B361F7264DD00B7D7D8 /* Icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-256.png"; sourceTree = "<group>"; };
+		5C542B371F7264DD00B7D7D8 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		5C542B381F7264DD00B7D7D8 /* Icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-32.png"; sourceTree = "<group>"; };
+		5C542B391F7264DD00B7D7D8 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		5C542B3A1F7264DD00B7D7D8 /* Icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-48.png"; sourceTree = "<group>"; };
+		5C542B3B1F7264DD00B7D7D8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		5C542B3C1F7264DD00B7D7D8 /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512.png"; sourceTree = "<group>"; };
+		5C542B3D1F7264DD00B7D7D8 /* Icon-55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-55.png"; sourceTree = "<group>"; };
+		5C542B3E1F7264DD00B7D7D8 /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
+		5C542B3F1F7264DD00B7D7D8 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
+		5C542B401F7264DD00B7D7D8 /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		5C542B411F7264DD00B7D7D8 /* Icon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-64.png"; sourceTree = "<group>"; };
+		5C542B421F7264DD00B7D7D8 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		5C542B431F7264DD00B7D7D8 /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		5C542B441F7264DD00B7D7D8 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
+		5C542B451F7264DD00B7D7D8 /* Icon-87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-87.png"; sourceTree = "<group>"; };
+		5C542B461F7264DD00B7D7D8 /* Icon-88.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-88.png"; sourceTree = "<group>"; };
+		5C542B651F72787500B7D7D8 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		5C542B671F727C1C00B7D7D8 /* CommentDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentDetail.swift; sourceTree = "<group>"; };
+		5C6994B51FA032CB006798EA /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		5C6994B71FA03F52006798EA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		5CC2AF09203FE0A300B5A115 /* SmartStreetProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartStreetProject.entitlements; sourceTree = "<group>"; };
+		5CE79A051FA3053200048885 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		84498938DC976B50DE105C54 /* Pods-SmartStreetProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartStreetProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartStreetProject/Pods-SmartStreetProject.release.xcconfig"; sourceTree = "<group>"; };
+		8D7F257BF135CE00FF7BC8ED /* Pods-SmartStreetProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartStreetProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartStreetProject/Pods-SmartStreetProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C47A1801F68CC6A00BCCD96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD6EA733B4D17D09D5F244C /* Pods_SmartStreetProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D747A572A7C1766089F5CF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D7F257BF135CE00FF7BC8ED /* Pods-SmartStreetProject.debug.xcconfig */,
+				84498938DC976B50DE105C54 /* Pods-SmartStreetProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C18C2D61F6C942F007A630C /* GeoFire1 */ = {
+			isa = PBXGroup;
+			children = (
+				5C18C2D71F6C942F007A630C /* API */,
+				5C18C2DC1F6C942F007A630C /* GeoFire-Prefix.pch */,
+				5C18C2DD1F6C942F007A630C /* Implementation */,
+			);
+			path = GeoFire1;
+			sourceTree = "<group>";
+		};
+		5C18C2D71F6C942F007A630C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5C18C2D81F6C942F007A630C /* GeoFire.h */,
+				5C18C2D91F6C942F007A630C /* GFCircleQuery.h */,
+				5C18C2DA1F6C942F007A630C /* GFQuery.h */,
+				5C18C2DB1F6C942F007A630C /* GFRegionQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5C18C2DD1F6C942F007A630C /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				5C18C2DE1F6C942F007A630C /* GeoFire+Private.h */,
+				5C18C2DF1F6C942F007A630C /* GeoFire.m */,
+				5C18C2E01F6C942F007A630C /* GFBase32Utils.h */,
+				5C18C2E11F6C942F007A630C /* GFBase32Utils.m */,
+				5C18C2E21F6C942F007A630C /* GFGeoHash.h */,
+				5C18C2E31F6C942F007A630C /* GFGeoHash.m */,
+				5C18C2E41F6C942F007A630C /* GFGeoHashQuery.h */,
+				5C18C2E51F6C942F007A630C /* GFGeoHashQuery.m */,
+				5C18C2E61F6C942F007A630C /* GFQuery+Private.h */,
+				5C18C2E71F6C942F007A630C /* GFQuery.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		5C24877D20226F5E00AC65F1 /* Barcode */ = {
+			isa = PBXGroup;
+			children = (
+				5C40808F1FA3A43E00A08F62 /* UserScan.swift */,
+				5C18C2F51F6E5512007A630C /* ScannerViewController.swift */,
+			);
+			name = Barcode;
+			sourceTree = "<group>";
+		};
+		5C47A17A1F68CC6A00BCCD96 = {
+			isa = PBXGroup;
+			children = (
+				5C47A1851F68CC6A00BCCD96 /* SmartStreetProject */,
+				5C47A1841F68CC6A00BCCD96 /* Products */,
+				1D747A572A7C1766089F5CF5 /* Pods */,
+				C9B8B9CAD38A292DEBBCAD4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C47A1841F68CC6A00BCCD96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C47A1831F68CC6A00BCCD96 /* SmartStreetProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C47A1851F68CC6A00BCCD96 /* SmartStreetProject */ = {
+			isa = PBXGroup;
+			children = (
+				5CC2AF09203FE0A300B5A115 /* SmartStreetProject.entitlements */,
+				5C542B751F72EF2400B7D7D8 /* Model */,
+				5C542B281F7264DD00B7D7D8 /* appiconmaker.co_ios */,
+				5C542B251F725DE300B7D7D8 /* Resource */,
+				5C542B1C1F72487D00B7D7D8 /* Sounds */,
+				5C18C2D61F6C942F007A630C /* GeoFire1 */,
+				5C18C2CF1F6C7F6C007A630C /* GoogleService-Info.plist */,
+				5C47A19E1F68CCA300BCCD96 /* Util */,
+				5C47A19D1F68CC9200BCCD96 /* View */,
+				5C47A19B1F68CC7900BCCD96 /* Controller */,
+				5C47A1861F68CC6A00BCCD96 /* AppDelegate.swift */,
+				5C47A18A1F68CC6A00BCCD96 /* Main.storyboard */,
+				5C47A1901F68CC6A00BCCD96 /* Assets.xcassets */,
+				5C47A1921F68CC6A00BCCD96 /* LaunchScreen.storyboard */,
+				5C47A1951F68CC6A00BCCD96 /* Info.plist */,
+				5C47A18D1F68CC6A00BCCD96 /* SmartStreetProject.xcdatamodeld */,
+				5C18C2D41F6C8D3F007A630C /* temp.m */,
+				5C18C2D31F6C8D3E007A630C /* SmartStreetProject-Bridging-Header.h */,
+			);
+			path = SmartStreetProject;
+			sourceTree = "<group>";
+		};
+		5C47A19B1F68CC7900BCCD96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C24877D20226F5E00AC65F1 /* Barcode */,
+				5C47A1B21F69B5BA00BCCD96 /* About.swift */,
+				5C18C2CD1F6C677C007A630C /* Nearby.swift */,
+				5C18C2F31F6E3364007A630C /* PhotoAndVideo.swift */,
+				5C542B181F71ED3700B7D7D8 /* share.swift */,
+				5C542B1A1F72414600B7D7D8 /* Interact.swift */,
+				5C542B651F72787500B7D7D8 /* Comment.swift */,
+				5C542B671F727C1C00B7D7D8 /* CommentDetail.swift */,
+				5C26D00E1F8B4D3E004D6613 /* SignIn.swift */,
+				5C6994B51FA032CB006798EA /* SignUp.swift */,
+				5C6994B71FA03F52006798EA /* Video.swift */,
+				5CE79A051FA3053200048885 /* Rating.swift */,
+				5C345C4C202BD995003DD1C1 /* Start.swift */,
+				5C405A7420366FF80045EAAB /* ViewController.swift */,
+				5C4073A4203FF0C70055C978 /* AddNewItem.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		5C47A19D1F68CC9200BCCD96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C47A19F1F68CF8A00BCCD96 /* CustomedView.swift */,
+				5C47A1A31F68D08600BCCD96 /* TreeCell.swift */,
+				5C47A1A91F68DD8700BCCD96 /* CustomedButton.swift */,
+				5C2A884A1F74A38C005D834F /* ItemCellTableViewCell.swift */,
+				5C47A1B41F69E84E00BCCD96 /* CustomedLable.swift */,
+				5C2A88481F74603C005D834F /* circledView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		5C47A19E1F68CCA300BCCD96 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				5C47A1AB1F69AD0800BCCD96 /* Trees.csv */,
+				5C47A1A11F68D02300BCCD96 /* Constant.swift */,
+				5C47A1AD1F69AEA000BCCD96 /* CSV.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		5C542B1C1F72487D00B7D7D8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				5C542B1E1F72489F00B7D7D8 /* storm_wind.mp3 */,
+				5C542B1F1F72489F00B7D7D8 /* fierce_thunder_storm_with_wind.mp3 */,
+				5C542B201F72489F00B7D7D8 /* fire_storm.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		5C542B251F725DE300B7D7D8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5C542B261F725F7C00B7D7D8 /* music.mp3 */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		5C542B281F7264DD00B7D7D8 /* appiconmaker.co_ios */ = {
+			isa = PBXGroup;
+			children = (
+				5C542B291F7264DD00B7D7D8 /* Icon-100.png */,
+				5C542B2A1F7264DD00B7D7D8 /* Icon-1024.png */,
+				5C542B2B1F7264DD00B7D7D8 /* Icon-114.png */,
+				5C542B2C1F7264DD00B7D7D8 /* Icon-120.png */,
+				5C542B2D1F7264DD00B7D7D8 /* Icon-128.png */,
+				5C542B2E1F7264DD00B7D7D8 /* Icon-144.png */,
+				5C542B2F1F7264DD00B7D7D8 /* Icon-152.png */,
+				5C542B301F7264DD00B7D7D8 /* Icon-16.png */,
+				5C542B311F7264DD00B7D7D8 /* Icon-167.png */,
+				5C542B321F7264DD00B7D7D8 /* Icon-172.png */,
+				5C542B331F7264DD00B7D7D8 /* Icon-180.png */,
+				5C542B341F7264DD00B7D7D8 /* Icon-196.png */,
+				5C542B351F7264DD00B7D7D8 /* Icon-20.png */,
+				5C542B361F7264DD00B7D7D8 /* Icon-256.png */,
+				5C542B371F7264DD00B7D7D8 /* Icon-29.png */,
+				5C542B381F7264DD00B7D7D8 /* Icon-32.png */,
+				5C542B391F7264DD00B7D7D8 /* Icon-40.png */,
+				5C542B3A1F7264DD00B7D7D8 /* Icon-48.png */,
+				5C542B3B1F7264DD00B7D7D8 /* Icon-50.png */,
+				5C542B3C1F7264DD00B7D7D8 /* Icon-512.png */,
+				5C542B3D1F7264DD00B7D7D8 /* Icon-55.png */,
+				5C542B3E1F7264DD00B7D7D8 /* Icon-57.png */,
+				5C542B3F1F7264DD00B7D7D8 /* Icon-58.png */,
+				5C542B401F7264DD00B7D7D8 /* Icon-60.png */,
+				5C542B411F7264DD00B7D7D8 /* Icon-64.png */,
+				5C542B421F7264DD00B7D7D8 /* Icon-72.png */,
+				5C542B431F7264DD00B7D7D8 /* Icon-76.png */,
+				5C542B441F7264DD00B7D7D8 /* Icon-80.png */,
+				5C542B451F7264DD00B7D7D8 /* Icon-87.png */,
+				5C542B461F7264DD00B7D7D8 /* Icon-88.png */,
+			);
+			name = appiconmaker.co_ios;
+			path = ../../../../../../Downloads/appiconmaker.co_ios;
+			sourceTree = "<group>";
+		};
+		5C542B751F72EF2400B7D7D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C2A88501F74B6F1005D834F /* TreeComments+CoreDataClass.swift */,
+				5C2A88511F74B6F1005D834F /* TreeComments+CoreDataProperties.swift */,
+				5C47A1A51F68D0B200BCCD96 /* Tree.swift */,
+				5C18C2EF1F6C96A5007A630C /* TreeAnnotation.swift */,
+				5C542B161F717E2900B7D7D8 /* PardeTreesFromCSVFile.swift */,
+				5C24877E202BBB2600AC65F1 /* DBProvider.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C9B8B9CAD38A292DEBBCAD4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C18C2F11F6CB9C8007A630C /* AdSupport.framework */,
+				441FAE412CA7124A83F8C665 /* Pods_SmartStreetProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C47A1821F68CC6A00BCCD96 /* SmartStreetProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C47A1981F68CC6A00BCCD96 /* Build configuration list for PBXNativeTarget "SmartStreetProject" */;
+			buildPhases = (
+				4F13B4F3E593DFD32CF2ECC5 /* [CP] Check Pods Manifest.lock */,
+				5C47A17F1F68CC6A00BCCD96 /* Sources */,
+				5C47A1801F68CC6A00BCCD96 /* Frameworks */,
+				5C47A1811F68CC6A00BCCD96 /* Resources */,
+				E711DB97BDEE99E4E107D832 /* [CP] Embed Pods Frameworks */,
+				202D353221C4C1F9F55356F6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartStreetProject;
+			productName = SmartStreetProject;
+			productReference = 5C47A1831F68CC6A00BCCD96 /* SmartStreetProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C47A17B1F68CC6A00BCCD96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Maryam Jafari";
+				TargetAttributes = {
+					5C47A1821F68CC6A00BCCD96 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = UF5CTWS5JD;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5C47A17E1F68CC6A00BCCD96 /* Build configuration list for PBXProject "SmartStreetProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C47A17A1F68CC6A00BCCD96;
+			productRefGroup = 5C47A1841F68CC6A00BCCD96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C47A1821F68CC6A00BCCD96 /* SmartStreetProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C47A1811F68CC6A00BCCD96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C542B221F72489F00B7D7D8 /* storm_wind.mp3 in Resources */,
+				5C542B5D1F7264DD00B7D7D8 /* Icon-58.png in Resources */,
+				5C542B5A1F7264DD00B7D7D8 /* Icon-512.png in Resources */,
+				5C542B5B1F7264DD00B7D7D8 /* Icon-55.png in Resources */,
+				5C542B541F7264DD00B7D7D8 /* Icon-256.png in Resources */,
+				5C542B4E1F7264DD00B7D7D8 /* Icon-16.png in Resources */,
+				5C542B241F72489F00B7D7D8 /* fire_storm.mp3 in Resources */,
+				5C542B561F7264DD00B7D7D8 /* Icon-32.png in Resources */,
+				5C542B271F725F7C00B7D7D8 /* music.mp3 in Resources */,
+				5C542B521F7264DD00B7D7D8 /* Icon-196.png in Resources */,
+				5C47A1941F68CC6A00BCCD96 /* LaunchScreen.storyboard in Resources */,
+				5C542B571F7264DD00B7D7D8 /* Icon-40.png in Resources */,
+				5C47A1911F68CC6A00BCCD96 /* Assets.xcassets in Resources */,
+				5C542B231F72489F00B7D7D8 /* fierce_thunder_storm_with_wind.mp3 in Resources */,
+				5C542B5F1F7264DD00B7D7D8 /* Icon-64.png in Resources */,
+				5C542B581F7264DD00B7D7D8 /* Icon-48.png in Resources */,
+				5C542B5C1F7264DD00B7D7D8 /* Icon-57.png in Resources */,
+				5C542B611F7264DD00B7D7D8 /* Icon-76.png in Resources */,
+				5C542B4F1F7264DD00B7D7D8 /* Icon-167.png in Resources */,
+				5C47A1AC1F69AD0800BCCD96 /* Trees.csv in Resources */,
+				5C542B491F7264DD00B7D7D8 /* Icon-114.png in Resources */,
+				5C542B621F7264DD00B7D7D8 /* Icon-80.png in Resources */,
+				5C542B4A1F7264DD00B7D7D8 /* Icon-120.png in Resources */,
+				5C542B501F7264DD00B7D7D8 /* Icon-172.png in Resources */,
+				5C542B481F7264DD00B7D7D8 /* Icon-1024.png in Resources */,
+				5C542B531F7264DD00B7D7D8 /* Icon-20.png in Resources */,
+				5C542B4B1F7264DD00B7D7D8 /* Icon-128.png in Resources */,
+				5C542B631F7264DD00B7D7D8 /* Icon-87.png in Resources */,
+				5C18C2D01F6C7F6C007A630C /* GoogleService-Info.plist in Resources */,
+				5C542B641F7264DD00B7D7D8 /* Icon-88.png in Resources */,
+				5C542B601F7264DD00B7D7D8 /* Icon-72.png in Resources */,
+				5C542B471F7264DD00B7D7D8 /* Icon-100.png in Resources */,
+				5C542B5E1F7264DD00B7D7D8 /* Icon-60.png in Resources */,
+				5C542B4D1F7264DD00B7D7D8 /* Icon-152.png in Resources */,
+				5C542B4C1F7264DD00B7D7D8 /* Icon-144.png in Resources */,
+				5C542B511F7264DD00B7D7D8 /* Icon-180.png in Resources */,
+				5C542B591F7264DD00B7D7D8 /* Icon-50.png in Resources */,
+				5C47A18C1F68CC6A00BCCD96 /* Main.storyboard in Resources */,
+				5C542B551F7264DD00B7D7D8 /* Icon-29.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		202D353221C4C1F9F55356F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartStreetProject/Pods-SmartStreetProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F13B4F3E593DFD32CF2ECC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartStreetProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E711DB97BDEE99E4E107D832 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartStreetProject/Pods-SmartStreetProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SCRecorder/SCRecorder.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCRecorder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartStreetProject/Pods-SmartStreetProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C47A17F1F68CC6A00BCCD96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C18C2CE1F6C677C007A630C /* Nearby.swift in Sources */,
+				5C24877F202BBB2600AC65F1 /* DBProvider.swift in Sources */,
+				5C4080901FA3A43E00A08F62 /* UserScan.swift in Sources */,
+				5C542B1B1F72414600B7D7D8 /* Interact.swift in Sources */,
+				5C542B681F727C1C00B7D7D8 /* CommentDetail.swift in Sources */,
+				5C2A88491F74603C005D834F /* circledView.swift in Sources */,
+				5C542B191F71ED3700B7D7D8 /* share.swift in Sources */,
+				5C18C2EA1F6C942F007A630C /* GFGeoHash.m in Sources */,
+				5C542B171F717E2900B7D7D8 /* PardeTreesFromCSVFile.swift in Sources */,
+				5C18C2D51F6C8D3F007A630C /* temp.m in Sources */,
+				5C47A1A61F68D0B200BCCD96 /* Tree.swift in Sources */,
+				5C18C2EC1F6C942F007A630C /* GFQuery.m in Sources */,
+				5C2A88521F74B6F1005D834F /* TreeComments+CoreDataClass.swift in Sources */,
+				5C6994B81FA03F52006798EA /* Video.swift in Sources */,
+				5C47A1A01F68CF8A00BCCD96 /* CustomedView.swift in Sources */,
+				5C2A884B1F74A38C005D834F /* ItemCellTableViewCell.swift in Sources */,
+				5C18C2F01F6C96A5007A630C /* TreeAnnotation.swift in Sources */,
+				5C18C2EB1F6C942F007A630C /* GFGeoHashQuery.m in Sources */,
+				5C47A1B31F69B5BA00BCCD96 /* About.swift in Sources */,
+				5C47A1AE1F69AEA000BCCD96 /* CSV.swift in Sources */,
+				5C405A7520366FF80045EAAB /* ViewController.swift in Sources */,
+				5C4073A5203FF0C70055C978 /* AddNewItem.swift in Sources */,
+				5C47A1AA1F68DD8700BCCD96 /* CustomedButton.swift in Sources */,
+				5C18C2F41F6E3364007A630C /* PhotoAndVideo.swift in Sources */,
+				5C2A88531F74B6F1005D834F /* TreeComments+CoreDataProperties.swift in Sources */,
+				5C18C2E91F6C942F007A630C /* GFBase32Utils.m in Sources */,
+				5C47A1B51F69E84E00BCCD96 /* CustomedLable.swift in Sources */,
+				5C47A1A21F68D02300BCCD96 /* Constant.swift in Sources */,
+				5C6994B61FA032CB006798EA /* SignUp.swift in Sources */,
+				5CE79A061FA3053200048885 /* Rating.swift in Sources */,
+				5C345C4D202BD995003DD1C1 /* Start.swift in Sources */,
+				5C47A1A41F68D08600BCCD96 /* TreeCell.swift in Sources */,
+				5C542B661F72787500B7D7D8 /* Comment.swift in Sources */,
+				5C47A1871F68CC6A00BCCD96 /* AppDelegate.swift in Sources */,
+				5C47A18F1F68CC6A00BCCD96 /* SmartStreetProject.xcdatamodeld in Sources */,
+				5C18C2E81F6C942F007A630C /* GeoFire.m in Sources */,
+				5C26D00F1F8B4D3E004D6613 /* SignIn.swift in Sources */,
+				5C18C2F61F6E5512007A630C /* ScannerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5C47A18A1F68CC6A00BCCD96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C47A18B1F68CC6A00BCCD96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C47A1921F68CC6A00BCCD96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C47A1931F68CC6A00BCCD96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C47A1961F68CC6A00BCCD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5C47A1971F68CC6A00BCCD96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C47A1991F68CC6A00BCCD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7F257BF135CE00FF7BC8ED /* Pods-SmartStreetProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SmartStreetProject/SmartStreetProject.entitlements;
+				DEVELOPMENT_TEAM = UF5CTWS5JD;
+				INFOPLIST_FILE = SmartStreetProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maryam.SmartStreetProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartStreetProject/SmartStreetProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5C47A19A1F68CC6A00BCCD96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84498938DC976B50DE105C54 /* Pods-SmartStreetProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SmartStreetProject/SmartStreetProject.entitlements;
+				DEVELOPMENT_TEAM = UF5CTWS5JD;
+				INFOPLIST_FILE = SmartStreetProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = maryam.SmartStreetProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SmartStreetProject/SmartStreetProject-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C47A17E1F68CC6A00BCCD96 /* Build configuration list for PBXProject "SmartStreetProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C47A1961F68CC6A00BCCD96 /* Debug */,
+				5C47A1971F68CC6A00BCCD96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C47A1981F68CC6A00BCCD96 /* Build configuration list for PBXNativeTarget "SmartStreetProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C47A1991F68CC6A00BCCD96 /* Debug */,
+				5C47A19A1F68CC6A00BCCD96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C47A18D1F68CC6A00BCCD96 /* SmartStreetProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C47A18E1F68CC6A00BCCD96 /* SmartStreetProject.xcdatamodel */,
+			);
+			currentVersion = 5C47A18E1F68CC6A00BCCD96 /* SmartStreetProject.xcdatamodel */;
+			path = SmartStreetProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5C47A17B1F68CC6A00BCCD96 /* Project object */;
+}
