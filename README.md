@@ -1,0 +1,2 @@
+# SmartTrees
+This application shows all smart trees around the user on the map and let user to interact with them by scanning tree's barcode. User can take photo, record video or voice and share it by email or FB. Users can write comments or see others comments. Each user has their own profile. By clicking on each tree on the map user can find the tree 's information or get direction to that tree.
