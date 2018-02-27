@@ -16,6 +16,6 @@ This application shows all smart trees around the user on the map and let user t
 ![img_3875](https://user-images.githubusercontent.com/21302849/36703166-3b6a8b2e-1b0f-11e8-8b00-2a648e5fc72b.PNG)
 - Users can take a picture or record a video and share it via email or in FB
 
-[img_2417](https://user-images.githubusercontent.com/21302849/36704415-21a14524-1b15-11e8-9339-819a665fb61d.PNG)
+![img_2417](https://user-images.githubusercontent.com/21302849/36704415-21a14524-1b15-11e8-9339-819a665fb61d.PNG)
 ![img_2414](https://user-images.githubusercontent.com/21302849/36704424-24209750-1b15-11e8-9e48-c2ae58832699.PNG)
 ![img_2415](https://user-images.githubusercontent.com/21302849/36704426-25885d26-1b15-11e8-8672-6c5b73dd8fc4.PNG)
