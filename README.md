@@ -12,3 +12,5 @@ This application shows all smart trees around the user on the map and let user t
 - Locations coordinates has saved in firebase(Using Geofire)
 - User should scan the tree's barcode to start interact with it.
 - User can use right menu to access other parts of the application such as list of trees, and so on.
+![img_3872](https://user-images.githubusercontent.com/21302849/36703157-2d1a019e-1b0f-11e8-931a-f2dbf312c398.PNG)
+![img_3875](https://user-images.githubusercontent.com/21302849/36703166-3b6a8b2e-1b0f-11e8-8b00-2a648e5fc72b.PNG)
